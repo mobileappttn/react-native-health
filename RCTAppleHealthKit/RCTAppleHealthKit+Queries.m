@@ -616,15 +616,15 @@
                       break;
 
                       // watchOS 9 and iOS 16 introduce Core, Deep, REM, and Awake phases of sleep.
-                      case HKCategoryValueSleepAnalysisAsleepCore:
-                        valueString = @"CORE";
-                      break;
-                      case HKCategoryValueSleepAnalysisAsleepDeep:
-                        valueString = @"DEEP";
-                      break;
-                      case HKCategoryValueSleepAnalysisAsleepREM:
-                        valueString = @"REM";
-                      break;
+//                       case HKCategoryValueSleepAnalysisAsleepCore:
+//                         valueString = @"CORE";
+//                       break;
+//                       case HKCategoryValueSleepAnalysisAsleepDeep:
+//                         valueString = @"DEEP";
+//                       break;
+//                       case HKCategoryValueSleepAnalysisAsleepREM:
+//                         valueString = @"REM";
+//                       break;
                       case HKCategoryValueSleepAnalysisAwake:
                         valueString = @"AWAKE";
                       break;
